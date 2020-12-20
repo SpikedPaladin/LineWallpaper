@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <EditTextPreference
+        android:key="delay"
+        android:defaultValue="1"
+        android:inputType="number"
+        android:title="@string/pref_delay"
+        android:summary="@string/pref_delay_summary"/>
+    
+    <EditTextPreference
+        android:key="lineWidth"
+        android:defaultValue="0"
+        android:inputType="number"
+        android:title="@string/pref_line_width"
+        android:summary="@string/pref_line_width_summary"/>
+    
+    <EditTextPreference
+        android:key="minStep"
+        android:defaultValue="2"
+        android:inputType="number"
+        android:title="@string/pref_min_step"
+        android:summary="@string/pref_min_step_summary"/>
+    
+    <EditTextPreference
+        android:key="maxStep"
+        android:defaultValue="6"
+        android:inputType="number"
+        android:title="@string/pref_max_step"
+        android:summary="@string/pref_max_step_summary"/>
+    
+    <CheckBoxPreference
+        android:key="antialiasing"
+        android:defaultValue="false"
+        android:title="@string/pref_antialiasing"
+        android:summary="@string/pref_antialiasing_summary"/>
+    
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<resources>
+    <!-- app start -->
+    <string name="app_name" translatable="false">Line Wallpaper</string>
+    <string name="app_author" translatable="false">PaladinDev</string>
+    <string name="app_description">Animated wallpaper</string>
+    <!-- app end -->
+    
+    <!-- pref start -->
+    <string name="pref_delay">Delay</string>
+    <string name="pref_delay_summary">Delay between redrawing frame</string>
+    
+    <string name="pref_line_width">Line width</string>
+    <string name="pref_line_width_summary">Line width when render</string>
+    
+    <string name="pref_min_step">Minimal step</string>
+    <string name="pref_min_step_summary">Minimal distance between lines</string>
+    
+    <string name="pref_max_step">Maximum step</string>
+    <string name="pref_max_step_summary">Maximum distance between lines</string>
+    
+    <string name="pref_antialiasing">Antialiasing</string>
+    <string name="pref_antialiasing_summary">Enable antialiasing for lines</string>
+    <!-- pref end -->
+</resources>

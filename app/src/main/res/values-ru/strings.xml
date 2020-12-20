@@ -1,0 +1,22 @@
+<resources>
+    <!-- app start -->
+    <string name="app_description">Анимированые обои</string>
+    <!-- app end -->
+    
+    <!-- pref start -->
+    <string name="pref_delay">Задержка</string>
+    <string name="pref_delay_summary">Задержка между отрисовкой кадра</string>
+    
+    <string name="pref_line_width">Ширина линии</string>
+    <string name="pref_line_width_summary">Ширина линии при отрисовке</string>
+    
+    <string name="pref_min_step">Минимальное расстояние</string>
+    <string name="pref_min_step_summary">Минимальное расстояние между линиями</string>
+    
+    <string name="pref_max_step">Максимальное расстояние</string>
+    <string name="pref_max_step_summary">Максимальное расстояние между линиями</string>
+    
+    <string name="pref_antialiasing">Сглаживание</string>
+    <string name="pref_antialiasing_summary">Включает сглаживание линий</string>
+    <!-- pref end -->
+</resources>
